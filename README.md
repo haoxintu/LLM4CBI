@@ -7,7 +7,7 @@ Note: We plan to release the source code after accepting this paper. (currently 
 
 ## Overview of LLM4CBI
 
-![](./gpt1.png)
+![](./LLM4CBI-framework.png)
 
 
 ## Reference
