@@ -1390,12 +1390,7 @@ while (passingcnt < 499):
          "content": "You are an effective program mutator and your job is to generate a semantic in-equivalent variant the input code based on the specified instructions in the following."},
     ]
     mutation_instruction = "(*) clear up your memory from now and do not generate repeated programs. Please generate only one semantic in-equivalent variant of the input test program ```{}``` (make sure the variant program can be compiled and valid without any undefined behavior) by {} and \
-                                    keep other code the same as the input program (comment in the code what you have changed). Please also do the following (1) surround the generated C code with three backticks (i.e., ```); (2) avoid any syntax error (i.e.,\"use of undeclared identifier\") or semantic errors \
-                            and (3) (hard restriction) keep existing definition of global or local variables and function definitions of the input program in new generated program in the generated code; \
-                            (4) try your best to generate the variant with different semantics compared with the input program;  (5) please do not directly assign to the variable in printf function (if any)\
-                             (6) In the solution code, please do not remove or modify any lines that include the comment `###@@@### KEEP THIS LINE`. For example, giving you the code `printf(\"%d\n\", c); // ###@@@### KEEP THIS LINE` or ` __builtin_abort (); // ###@@@### KEEP THIS LINE` in the original program, you should not remove such lines in your solution \
-                               (7) please modify the lines before the first comment that includes string `###@@@### KEEP THIS LINE`".format(
-        prog, selected) + " and (8) please only show the new program and save the new program into `gpt-test.c` and (9) do not generate loop initial declarations (e.g., `for (int i=0; ;)`) for for-loop statement"
+                                    keep other code the same as the input program (comment in the code what you have changed)".format(prog, selected)
     messages.append(
         {"role": "user", "content": mutation_instruction},
     )
