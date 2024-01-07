@@ -1,0 +1,10 @@
+33185,r304014,-Os,-Os+-mllvm+-enable-newgvn,checkIsPass_wrongcodeOneline,install_no
+33305,r304675,-Os,-Os+-mllvm+-enable-newgvn,checkIsPass_zeroandsegmentoneline,install_no
+38641,r340155,-O1,-O2,checkIsPass_zeroandonenumber,install_no
+26734,r261721,-O1,-O2,checkIsPass_wrongcodeOneline,install_no
+25900,r256098,-O0+-w,-O1+-w,checkIsPass_zeroandsegmentoneline,install_no
+25831,r255518,-O0+-w,-O1+-w,checkIsPass_multilineswrongcode,install_no
+27137,r264841,-O1,-O2,checkIsPass_wrongcodeOneline,install_no
+26266,r258508,-O0+-w,-O1+-w,checkIsPass_zeroandsegmentoneline,install_no
+26256,r258416,-Os,-O2,checkIsPass_zeroandonenumber,install_no
+21582,r220897,-O0,-O1,checkIsPass_wrongcodeOneline,install_no

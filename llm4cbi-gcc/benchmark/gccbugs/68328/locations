@@ -1,0 +1,4 @@
+before revision:230270
+fixed revision:230812
+buggy locations
+file:gcc/ree.c; method:combine_reaching_defs (ext_cand *cand, const_rtx set_pat, ext_state *state)

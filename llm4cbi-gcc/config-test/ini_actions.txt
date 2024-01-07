@@ -1,0 +1,10 @@
+addQualifier;inserting a qualifier (i.e., volatile, const, and restrict) of the variable in the list ['b', 'f4', 'f6'] at the most complex block of the existing statement (if any)
+addModifier;inserting a modifier (i.e., long, short, signed, and unsigned) of the variable in the list ['b', 'f4', 'f6'] at the most complex block of the existing statement (if any)
+remModifier;removing a modifier (i.e., long, short, signed, and unsigned) of the variable in the list ['b', 'f4', 'f6'] at the most complex block of the existing statement (if any)
+repContant;replacing a constant with another valid one of a variable in the list ['b', 'f4', 'f6'] at the most complex block of the existing statement (if any)
+repBinary;replacing a binary operator with another valid one on the variables in the list ['b', 'f4', 'f6'] at the most complex block of the existing statement (if any)
+repRemUnary;replacing or removing an unary operator on the variables in the list ['b', 'f4', 'f6'] at the most complex block of the existing statement (if any)
+repVar;replacing a variable in the list ['b', 'f4', 'f6'] with another valid existing one in the list ['b', 'f4', 'f6'] at the most complex block of the existing statement (if any) addIf;inserting a branch (i.e., if) statement with length  10 - 20  lines in the statement body at the most complex block of the existing statement  and reusing the variables in the list ['b', 'f4', 'f6'] 
+addWhile;inserting a loop (i.e., while or for) statement with length  10 - 20  lines in the statement body at the most complex block of the existing statement and reusing the variables in the list ['b', 'f4', 'f6'] 
+addFunction;inserting a function call with length  10 - 20  lines in the statement body at the most complex block of the existing statement and reusing the variables in the list ['b', 'f4', 'f6'] 
+addGoto;inserting a goto statement with length  10 - 20  lines in the statement body at the most complex block of the existing statement and reusing the variables in the list ['b', 'f4', 'f6'] 

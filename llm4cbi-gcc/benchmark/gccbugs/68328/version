@@ -1,0 +1,21 @@
+The current gcc trunk mis-compiles the following code on x86_64-linux-gnu at -O2 and -O3 in the 64-bit mode (but not in the 32-bit mode). 
+
+It also affects 4.9.x and later releases, making it a regression from 4.8.x. 
+
+$ gcc-trunk -v
+Using built-in specs.
+COLLECT_GCC=gcc-trunk
+COLLECT_LTO_WRAPPER=/usr/local/gcc-trunk/libexec/gcc/x86_64-pc-linux-gnu/6.0.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-trunk/configure --prefix=/usr/local/gcc-trunk --enable-languages=c,c++ --disable-werror --enable-multilib
+Thread model: posix
+gcc version 6.0.0 20151112 (experimental) [trunk revision 230270] (GCC) 
+$ 
+$ gcc-trunk -Os small.c; ./a.out
+$ gcc-4.8 -O2 small.c; ./a.out
+$ 
+$ gcc-trunk -O2 small.c
+$ ./a.out
+0
+$ 
+

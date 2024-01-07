@@ -1,0 +1,10 @@
+28307,r273774,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+28610,r275702,-O0,-O1,checkIsPass_zeroandsegmentoneline,install_no
+28763,r276903,-O1,-Os,checkIsPass_wrongcodeOneline,install_no
+28802,r277294,-Os,-O2,checkIsPass_zeroandsegmentoneline,install_no
+28824,r277497,-m32+-O2+-w,-m32+-O3+-w,checkIsPass_zeroandsegmentoneline,install_no
+29170,r279924,-m32+-O1,-m32+-Os,checkIsPass_zeroandonenumber,install_no
+30707,r284107,-O1,-Os,checkIsPass_zeroandsegmentoneline,install_no
+30841,r285516,-m32+-O0,-m32+-O1,checkIsPass_wrongcodeOneline,install_no
+30935,r286097,-O0,-O1,checkIsPass_zeroandsegmentoneline,install_no
+32418,r298721,-O0+-w,-O1+-w,checkIsPass_zeroandsegmentoneline,install_no

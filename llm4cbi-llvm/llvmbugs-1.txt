@@ -1,0 +1,10 @@
+15920,r181189,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+16041,r181995,-O2,-O3,checkIsPass_zeroandsegmentoneline,install_no
+16069,r182209,-O1,-Os,checkIsPass_zeroandsegmentoneline,install_no
+16521,r185306,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+16552,r185684,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+16605,r186068,-m32+-O0,-m32+-O3,checkIsPass_zeroandsegmentoneline,install_no
+16729,r187322,-O1,-O3,checkIsPass_zeroandsegmentoneline,install_no
+17288,r190911,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+17338,r191183,-m32+-O1,-m32+-O0,checkIsPass_wrongcodeOneline,install_no
+17373,r191356,-O2,-O3,checkIsPass_zeroandsegmentoneline,install_no

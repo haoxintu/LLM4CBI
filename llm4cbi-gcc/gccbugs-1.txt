@@ -1,0 +1,10 @@
+57303,r198967,-O0,-O1,checkIsPass_wrongcodeOneline,install_no
+57488,r199531,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+57521,r199601,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+57719,r200388,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+58223,r201915,-O2,-O3,checkIsPass_wrongcodeOneline,install_no
+58418,r202556,-m64+-O2,-m32+-O2,checkIsPass_wrongcodeOneline,install_no
+58570,r203003,-O1,-Os,checkIsPass_wrongcodeOneline,install_no
+58640,r203223,-O2,-O3,checkIsPass_zeroandsegmentoneline,install_no
+58662,r203235,-Os,-O2,checkIsPass_wrongcodeOneline,install_no
+58726,r203511,-O1,-Os,checkIsPass_wrongcodeOneline,install_no

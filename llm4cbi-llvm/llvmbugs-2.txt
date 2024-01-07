@@ -1,0 +1,10 @@
+17503,r192089,-O1,-Os,checkIsPass_wrongcodeOneline,install_no
+18000,r195148,-O1,-Os,checkIsPass_wrongcodeOneline,install_no
+18101,r195973,-O1,-Os,checkIsPass_wrongcodeOneline,install_no
+22613,r229360,-Os,-O2,checkIsPass_zeroandsegmentoneline,install_no
+22641,r229830,-O0,-O1,checkIsPass_zeroandsegmentoneline,install_no
+23751,r238951,-O1,-Os,checkIsPass_zeroandsegmentoneline,install_no
+24356,r243961,-O0,-O1,checkIsPass_zeroandsegmentoneline,install_no
+24482,r245195,-O1,-Os,checkIsPass_zeroandsegmentoneline,install_no
+24516,r245480,-O1,-Os,checkIsPass_wrongcodeOneline,install_no
+24757,r247047,-O1,-Os,checkIsPass_wrongcodeOneline,install_no

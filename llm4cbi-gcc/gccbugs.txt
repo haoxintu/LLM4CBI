@@ -1,0 +1,2 @@
+80622,r247550,-O0+-m32,-O1+-m32,checkIsPass_wrongcodeOneline,install_no
+67916,r228653,-O2,-O3,checkIsPass_zeroandsegmentoneline,install_no

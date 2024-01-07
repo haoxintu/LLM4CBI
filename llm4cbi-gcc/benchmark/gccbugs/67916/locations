@@ -1,0 +1,4 @@
+before revision:228653
+fixed revision:231117
+buggy locations
+file:gcc/tree-parloops.c; method:predict_loops (void)
