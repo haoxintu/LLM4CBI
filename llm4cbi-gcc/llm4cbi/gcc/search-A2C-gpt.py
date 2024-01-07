@@ -604,7 +604,7 @@ def data_flow_analysis(src_file):
     top_keys_all = set()
     sorted_all_dict = sorted(all_dict.items(), key=lambda x: x[1], reverse=True)
     if len(keys_set) < topn:
-        top_keys_all = keys_set
+        top_keys_all = keys_set[0]
     else:
         top_keys_all = set(dict(sorted_all_dict[:topn]).keys())
     # print("top_keys_all : ", top_keys_all)
