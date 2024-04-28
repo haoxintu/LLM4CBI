@@ -1,6 +1,6 @@
 # LLM4CBI
 
-Implementation of the tool ***LLM4CBI*** in the paper  **"Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models"** ([arXiv](https://arxiv.org/pdf/2307.00593.pdf))
+Implementation of the tool ***LLM4CBI*** in the TSE paper  **"Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models"** ([arXiv](https://arxiv.org/pdf/2307.00593.pdf))
 
 
 ## Overview of LLM4CBI
@@ -68,7 +68,7 @@ In the above example, `LLM4CBI` ranks the suspicious file at Top-1.
 ## Reference
 ```
 @misc{tu2023llm4cbi,
-      title={LLM4CBI: Taming LLMs to Generate Effective Test Programs for Compiler Bug Isolation}, 
+      title={Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models}, 
       author={Haoxin Tu and Zhide Zhou and He Jiang and Imam Nur Bani Yusuf and Yuxian Li and Lingxiao Jiang},
       year={2023},
       eprint={2307.00593},
