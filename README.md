@@ -67,12 +67,12 @@ In the above example, `LLM4CBI` ranks the suspicious file at Top-1.
 
 ## Reference
 ```
-@misc{tu2023llm4cbi,
-      title={Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models}, 
-      author={Haoxin Tu and Zhide Zhou and He Jiang and Imam Nur Bani Yusuf and Yuxian Li and Lingxiao Jiang},
-      year={2023},
-      eprint={2307.00593},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE}
+@article{tu2024isolating,
+  title={{Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models}},
+  author={Tu, Haoxin and Zhou, Zhide and Jiang, He and Yusuf, Imam Nur Bani and Li, Yuxian and Jiang, Lingxiao},
+  journal={IEEE Transactions on Software Engineering},
+  year={2024},
+  pages = {1--20},
+  publisher={IEEE}
 }
 ```
